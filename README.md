@@ -27,3 +27,10 @@ The architecture for this project follows Medallion Architecture **Bronze**, **S
 Following dimensional data modelling, Star Schema was deployed for the Sales Data mart.
 
 ![Data Model](images/data_model.png)
+
+
+## Sales Analysis
+
+MySQL Server was connected to Microsoft Power BI Desktop as source of data and the views on the gold level was loaded to BI tool and a simple dashboard for sum of cost vs categories and Sales_amount by Year.
+
+![Data Analysis](images/Sales_dashboard.png)
